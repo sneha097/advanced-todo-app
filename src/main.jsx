@@ -1,9 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider, useSelector } from "react-redux";
-import { store } from "./redux/store"; // ✅ This is the correct store
+import { configureStore } from "@reduxjs/toolkit";
+import authReducer from "./redux/authSlice"; // Import auth slice
 import App from "./App";
 import Login from "./pages/Login";
+
+const store = configureStore({
+  reducer: {
+    auth: authReducer,
+  },
+});
 
 // Authentication Check Component
 const MainApp = () => {
