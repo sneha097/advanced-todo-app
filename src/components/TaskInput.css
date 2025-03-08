@@ -1,0 +1,53 @@
+.task-input-container {
+    background: #f1f9f1;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .task-input-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .task-input-field {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #e8f5e9;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .task-icons {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .icon {
+    margin: 0 5px;
+    color: #3a5f3a;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .add-task-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .add-task-btn:hover {
+    background: #45a049;
+  }
+  

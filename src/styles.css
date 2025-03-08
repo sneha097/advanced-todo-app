@@ -1,0 +1,43 @@
+.app-container {
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar {
+    width: 280px;
+    background: #eaf4e3;
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .sidebar .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .sidebar .nav-link {
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #d4e9c3;
+    border-radius: 8px;
+  }
+  
+  .task-list {
+    margin-left: 300px;
+  }
+  
+  .add-task {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  

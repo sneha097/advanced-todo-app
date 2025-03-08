@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  width: 100%;
+}.task-list {
+  flex: 1; /* Takes full width by default */
+  transition: width 0.3s ease;
+
+  height: 90vh; /* Full height with some padding */
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enable scrolling if needed */
+}
+
+  
+  .task-list h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .add-task {
+    display: flex;
+    align-items: center;
+    background: #f1f8f2;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-task input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-task button {
+    background: #7cb342;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .add-task button:hover {
+    background: #689f38;
+  }
+  
+  .completed-tasks {
+    margin-top: 20px;
+  }
+  
+  .completed-tasks h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2e7d32;
+  }
+ .task-list-header {
+  display: flex;
+  
+  align-items: center;
+  gap: 10px;
+}
+
+.task-list-icons {
+  display: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+}
+.task-list-container {
+  display: flex;
+}
+
+.task-list {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.task-details-panel {
+  flex-basis: 300px;
+  border-left: 1px solid #ccc;
+}

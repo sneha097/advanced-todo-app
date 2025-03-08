@@ -1,0 +1,67 @@
+.task-details-panel {
+    width: 320px;
+    background: #eef3eb;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-details-header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-title {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .star-icon {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .task-options {
+    margin-top: 10px;
+  }
+  
+  .task-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .task-option span {
+    flex: 1;
+  }
+  
+  .task-notes {
+    margin-top: 20px;
+    color: #888;
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
