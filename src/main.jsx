@@ -5,6 +5,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import authReducer from "./Redux/authSlice"; // Import auth slice
 import App from "./App";
 import Login from "./pages/Login";
+import { store } from "./Redux/store";
 
 const store = configureStore({
   reducer: {
